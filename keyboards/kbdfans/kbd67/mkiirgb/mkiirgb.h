@@ -16,11 +16,6 @@
 
 #pragma once
 
-#if defined(KEYBOARD_kbdfans_kbd67_mkiirgb_v1)
-    #include "v1.h"
-#elif defined(KEYBOARD_kbdfans_kbd67_mkiirgb_v2)
-    #include "v2.h"
-#elif defined(KEYBOARD_kbdfans_kbd67_mkiirgb_v3)
-    #include "v3.h"
-#endif
+#include "v2.h"
+
 #include "quantum.h"
